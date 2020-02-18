@@ -52,38 +52,44 @@
     color: #ccc;
     border-bottom: 2px solid #00ffff;
   }
-  .main-services{
+  #main-services{
       width: 100%;
-      height: 600px;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
       align-content: center;
       flex-direction: column;
-      background-color: #4d4236;
+      background-color: #201c17;
   }
   .main-service-title{
       color: #fff;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 4em;    
-      margin-top: 10px;
-      height: 30%;
+      margin: auto;
+      margin-top: 40px;
 }
 .main-content{
+    margin-bottom: 20px;
     display: flex;
-    height: 59%;
+    height: 60%;
     width:  80%;
     flex-direction: row;
     justify-content: space-around;
 }
-.main-services .service{
+#main-services .service{
     border: 5px solid #00ffff;
     border-radius: 5%;
     width: 100%;
     color: #fff;
     padding: 10px;
     margin-right: 10px;
+}
+.main-service-title h2{
+  font-size: 17px;
+  color: rgba(223, 217, 217, 0.671);
+  text-align: center;
 }
 .service .service-title{
     line-height: 25px;
